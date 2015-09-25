@@ -1,0 +1,30 @@
+{
+  "name": "swapit",
+  "version": "0.0.0",
+  "description": "Easily swap files",
+  "bin": {
+    "swapit": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nihey/node-swapit.git"
+  },
+  "keywords": [
+    "swap",
+    "file",
+    "mv",
+    "files"
+  ],
+  "author": "Nihey Takizawa <nihey.takizawa@gmail.com>",
+  "license": "CC0",
+  "bugs": {
+    "url": "https://github.com/nihey/node-swapit/issues"
+  },
+  "homepage": "https://github.com/nihey/node-swapit",
+  "dependencies": {
+    "file-exists": "^0.1.1"
+  }
+}
